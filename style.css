@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: pink;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+	border: solid 2px;
+	border-radius: 2em;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 400px;
+	background-color: white;
+	padding: 0.5em;
+	margin-top: 1em;
+}
+
+h1 {
+	margin: 0.5em;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#countdown {
+	font-size: 1.5em;
+}
+
+img {
+	width: 400px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
