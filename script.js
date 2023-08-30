@@ -13,3 +13,8 @@ let x = setInterval(function() {
 document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
 + minutes + "m " + seconds + "s ";
 })
+
+let button = document.getElementById('returnbutton');
+button.addEventListener('click', function() {
+	location.href = 'https://countdown-website-therese.s3.eu-north-1.amazonaws.com/index.html'
+})
